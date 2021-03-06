@@ -1,0 +1,97 @@
+/* Base stuff */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+/* Layout */
+
+.pure-g {
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto 24px;
+}
+
+/* Content */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+}
+
+h1 {
+    font-size:4em;
+    margin-block-start: 0.4em;
+    margin-bottom:0;
+}
+
+h3 {
+    font-size:1.8em;
+}
+
+img.logo {
+    margin:48px 0 0 0;
+}
+
+a.contact {
+    text-decoration:underline;
+}
+
+a.contact:hover {
+    color:#555555;
+}
+
+a.link-site {
+
+}
+
+a.link-twitter {
+    color:#1DA1F2;
+}
+
+a.link-ig {
+    color:#E1306C;
+}
+
+a.link-github {
+    color:#25292E;
+}
+
+a.link-linkedin {
+    color:#0077B5;
+}
+
+a.link-eth {
+    color:#1C1CE1;
+}
+
+ul {
+    font-family: 'Inter', sans-serif;
+    font-size:1.8em;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+ul li {
+    font-weight:600;
+    margin:0 0 12px 0;
+}

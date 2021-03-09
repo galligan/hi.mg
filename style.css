@@ -49,6 +49,8 @@ h3 {
 }
 
 img.logo {
+    height: 88px;
+    weight: 88px;
     margin:48px 0 0 0;
 }
 
